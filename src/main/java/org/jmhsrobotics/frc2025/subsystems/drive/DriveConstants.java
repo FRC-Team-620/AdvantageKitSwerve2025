@@ -1,16 +1,3 @@
-// Copyright 2021-2024 FRC 6328
-// http://github.com/Mechanical-Advantage
-//
-// This program is free software; you can redistribute it and/or
-// modify it under the terms of the GNU General Public License
-// version 3 as published by the Free Software Foundation or
-// available in the root directory of this project.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-// GNU General Public License for more details.
-
 package org.jmhsrobotics.frc2025.subsystems.drive;
 
 import com.pathplanner.lib.config.ModuleConfig;
@@ -30,7 +17,7 @@ public class DriveConstants {
   public static final Rotation2d backLeftZeroRotation = new Rotation2d(0.0);
   public static final Rotation2d backRightZeroRotation = new Rotation2d(0.0);
 
-  public static class revConstants {
+  public static class RevConstants {
     public static final DCMotor driveGearbox = DCMotor.getNEO(1);
     public static final DCMotor turnGearbox = DCMotor.getNeo550(1);
 
@@ -118,7 +105,7 @@ public class DriveConstants {
             moduleTranslations);
   }
 
-  public static class thriftyConstants {
+  public static class ThriftyConstants {
     public static final DCMotor driveGearbox = DCMotor.getNeoVortex(1);
     public static final DCMotor turnGearbox = DCMotor.getNEO(1);
 
